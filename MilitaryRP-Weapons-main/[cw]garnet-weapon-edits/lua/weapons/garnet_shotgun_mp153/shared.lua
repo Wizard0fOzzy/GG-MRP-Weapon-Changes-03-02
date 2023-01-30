@@ -254,7 +254,7 @@ SWEP.Primary.Ammo			= "12 Gauge"
 
 
 
-SWEP.FireDelay = 0.2
+SWEP.FireDelay = 60/86
 
 SWEP.FireSound = "MP153_FIRE"
 
