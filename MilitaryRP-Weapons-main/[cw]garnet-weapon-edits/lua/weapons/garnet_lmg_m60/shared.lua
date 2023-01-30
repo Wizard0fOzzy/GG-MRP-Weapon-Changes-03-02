@@ -242,7 +242,7 @@ SWEP.FireSound = "KM60_FIRE"
 
 SWEP.FireSoundSuppressed = "KM60_FIRE_SUPPRESSED"
 
-SWEP.Recoil = 1.8
+SWEP.Recoil = 2.25
 
 
 
