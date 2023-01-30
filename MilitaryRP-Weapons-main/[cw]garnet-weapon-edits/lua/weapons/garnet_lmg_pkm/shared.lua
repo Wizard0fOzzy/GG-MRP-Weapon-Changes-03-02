@@ -282,7 +282,7 @@ SWEP.FireSound = "KHRPKM_FIRE"
 
 SWEP.FireSoundSuppressed = "KHRPKM_FIRE_SUPPRESSED"
 
-SWEP.Recoil = 1.8
+SWEP.Recoil = 2.25
 
 SWEP.BipodRecoilModifier = .25
 
