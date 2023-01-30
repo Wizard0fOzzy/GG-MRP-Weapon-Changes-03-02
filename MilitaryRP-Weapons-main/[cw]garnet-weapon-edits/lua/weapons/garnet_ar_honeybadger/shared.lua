@@ -38,7 +38,7 @@ if CLIENT then
 
 	
 
-	SWEP.MuzzleEffect = "muzzleflash_6"
+	SWEP.MuzzleEffect = "muzzleflash_suppressed"
 
 	SWEP.PosBasedMuz = true
 
