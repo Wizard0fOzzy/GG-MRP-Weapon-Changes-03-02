@@ -294,7 +294,7 @@ SWEP.FireSound = "CW_AK74_FIRE"
 
 SWEP.FireSoundSuppressed = "CW_AK74_FIRE_SUPPRESSED"
 
-SWEP.Recoil = 1.95
+SWEP.Recoil = 2.25
 
 
 
