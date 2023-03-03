@@ -24,7 +24,7 @@ if CLIENT then
 
 	SWEP.PrintName = "Honey Badger"
 
-	SWEP.CSMuzzleFlashes = true
+	SWEP.CSMuzzleFlashes = false
 
 	SWEP.ViewModelMovementScale = 1
 
@@ -116,11 +116,9 @@ if CLIENT then
 
 
 
-    SWEP.BaseArm = "arm_controller_01"
+	SWEP.BaseArm = "Bip01 L Clavicle"
 
 	SWEP.BaseArmBoneOffset = Vector(-50, 0, 0)
-
-	
 
 	SWEP.SightWithRail = false
 
@@ -146,7 +144,7 @@ if CLIENT then
 
 		["md_saker"] = {model = "models/cw2/attachments/556suppressor.mdl", bone = "Masada", pos = Vector(0.05, 1.707, -1.482), angle = Angle(0, 0, 0), size = Vector(0.758, 0.758, 0.758)},
 
-		["md_foregrip"] = {model = "models/wystan/attachments/foregrip1.mdl", bone = "honey_body", pos = Vector(-0.44, -7.298, -2.293), angle = Angle(0, 0, 0), size = Vector(0.851, 0.851, 0.685)},
+		["md_foregrip"] = {model = "models/wystan/attachments/foregrip1.mdl", bone = "Honey_Body", pos = Vector(-0.258, 6, 43.518), angle = Angle(0, 0, 0), size = Vector(0.75, 0.75, 0.75)},
 
 		["md_aimpoint"] = {model = "models/weapons/upgrades/a_optic_aimpoint.mdl", bone = "Honey_Body", pos = Vector(0, 11.296, 46.847), angle = Angle(0, -89.998, 0), size = Vector(0.903, 0.903, 0.903)},
 
@@ -165,51 +163,27 @@ if CLIENT then
 
 
 	SWEP.ForeGripHoldPos = {
-
-	["Bip01 L Finger3"] = { scale = Vector(1.003, 1.003, 1.003), pos = Vector(0, 0, 0), angle = Angle(-19.573, 34.021, 24.534) },
-
-	["Bip01 L Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(8.515, -21.798, 1.478) },
-
-	["Bip01 L Finger2"] = { scale = Vector(0.996, 0.996, 0.996), pos = Vector(0, 0, -0.003), angle = Angle(-13.195, 51.571, 25.062) },
-
-	["Bip01 L Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(-4.143, -0.525, -2.641), angle = Angle(0.651, 2.545, 0.374) },
-
-	["Bip01 L Finger22"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -21.951, 0) },
-
-	["Bip01 L Finger31"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(7.381, -10.226, 0) },
-
-	["Bip01 L Finger02"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(9.826, -0.949, -0.26) },
-
-	["Bip01 L Finger11"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-6.369, 40.115, 13.479) },
-
-	["Bip01 L Finger4"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-31.942, 21.694, 4.426) },
-
-	["Bip01 L Finger1"] = { scale = Vector(1.001, 1.001, 1.001), pos = Vector(0.002, 0.002, 0), angle = Angle(-5.207, 58.52, 28.386) },
-
-	["Bip01 L Forearm"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 1.139, 1.059) },
-
-	["Bip01 L Finger42"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 77.722, 0) },
-
-	["Bip01 L Hand"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(5.591, 14.732, 39.087) },
-
-	["Bip01 L Finger32"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 52.763, 6.721) },
-
-	["Bip01 L Finger0"] = { scale = Vector(1.003, 1.003, 1.003), pos = Vector(0, 0, 0), angle = Angle(-16.063, -16.747, -34.154) },
-
-	["Bip01 L Finger12"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(7.606, 25.819, 13.758) },
-
-	["Bip01 L Finger21"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0.217, 7.441, 11.361) },
-
-	["Bip01 L UpperArm"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0.002, -3.648, -2.478) },
-
-	["Bip01 L Finger01"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-2.702, 7.258, 6.697) },
-
-	["Bip01 L ForeTwist"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 0, 51.498) }
-
-	}
-
+	["Bip01 L Finger3"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(18.898, 20.285, 48.143) },
+	["Bip01 L Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 48.73, 0) },
+	["Bip01 L Finger2"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(20.093, 38.222, 36.31) },
+	["Bip01 L Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(-0.073, 2.256, -1.632), angle = Angle(0, 0.507, 0) },
+	["Bip01 L Finger22"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-14.247, 51.68, 17.024) },
+	["Bip01 L Finger31"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 31.576, 0) },
+	["Bip01 L ForeTwist1"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 0, 9.175) },
+	["Bip01 L Finger11"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-0.837, 72.816, 18.42) },
+	["Bip01 L Hand"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(2.572, 16.181, 40.699) },
+	["Bip01 L Finger4"] = { scale = Vector(1.001, 1.001, 1.001), pos = Vector(0, 0, 0), angle = Angle(35.999, -3.01, 54.143) },
+	["Bip01 L Finger02"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 37.317, 0) },
+	["Bip01 L Finger1"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(22.441, 30.207, 18.363) },
+	["Bip01 L Finger42"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 53.685, -3.8) },
+	["Bip01 L Finger32"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 48.754, 0) },
+	["Bip01 L Finger0"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(12.55, 4.995, -7.224) },
+	["Bip01 L Finger12"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-0.736, -16.782, -7.481) },
+	["Bip01 L Finger21"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0.904, 24.072, 0) },
+	["Bip01 L Finger01"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-5.073, 17.52, 27.415) },
+	["Bip01 L UpperArm"] = { scale = Vector(1, 1, 1), pos = Vector(-2, -1, 0), angle = Angle(0, 0, 0) }
+	}	
 	
-
 	SWEP.LuaVMRecoilAxisMod = {vert = 1.5, hor = 2, roll = 1, forward = 1, pitch = 1}
 
 	
@@ -282,9 +256,9 @@ SWEP.LuaViewmodelRecoil = false
 
 SWEP.Attachments = {[1] = {header = "Sight", offset = {600, 100},  atts = {"md_microt1", "md_eotech", "md_acogv2"}},
 
-[2] = {header = "Rail", offset = {-100, -200},  atts = {"md_anpeq15"}}}
+[2] = {header = "Rail", offset = {-100, -200},  atts = {"md_anpeq15"}},
 
-
+[4] = {header = "Handguard", offset = {-400, 150},  atts = {"md_foregrip"}}}
 
 SWEP.Animations = {fire = {"shoot1", "shoot2", "shoot3"},
 
