@@ -243,7 +243,7 @@ SWEP.Primary.Ammo			= "12 Gauge"
 
 
 
-SWEP.FireDelay = 60/120
+SWEP.FireDelay = 70/120
 
 SWEP.FireSound = "TOZ194_FIRE"
 
@@ -265,7 +265,7 @@ SWEP.SpreadPerShot = 0.02
 
 SWEP.SpreadCooldown = 0.75
 
-SWEP.Shots = 10
+SWEP.Shots = 9
 
 SWEP.Damage = 12
 
