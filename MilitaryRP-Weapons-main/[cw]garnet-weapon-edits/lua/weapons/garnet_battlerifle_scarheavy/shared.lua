@@ -328,9 +328,9 @@ SWEP.AdminSpawnable		= true
 
 
 
-SWEP.Primary.ClipSize		= 20
+SWEP.Primary.ClipSize		= 25
 
-SWEP.Primary.DefaultClip	= 40
+SWEP.Primary.DefaultClip	= 50
 
 SWEP.Primary.Automatic		= true
 
