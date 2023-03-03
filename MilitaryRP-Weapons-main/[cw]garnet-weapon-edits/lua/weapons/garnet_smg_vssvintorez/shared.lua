@@ -194,7 +194,9 @@ if CLIENT then
 
 		["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", bone = "ak47_control", pos = Vector(0.001, 12.855, -1.339), angle = Angle(0, 180, 0), size = Vector(0.899, 0.899, 0.899)},
 
-		["md_foregrip"] = {model = "models/wystan/attachments/foregrip1.mdl", bone = "ak47_control", pos = Vector(-0.403, -4.705, -3.195), angle = Angle(0, 0, 0), size = Vector(0.75, 0.75, 0.75)}
+		["md_foregrip"] = {model = "models/wystan/attachments/foregrip1.mdl", bone = "ak47_control", pos = Vector(-0.403, -4.705, -3.195), angle = Angle(0, 0, 0), size = Vector(0.75, 0.75, 0.75)},
+		
+		["md_anpeq15"] = {model = "models/cw2/attachments/anpeq15.mdl", bone = "ak47_control", pos = Vector(0.85, 3.636, 0), angle = Angle(0, 90, 90), size = Vector(0.5, 0.5, 0.5)},
 
 	}
 
@@ -207,6 +209,10 @@ if CLIENT then
 	SWEP.BoltBone = "ak46_bolt"
 
 	SWEP.BoltShootOffset = Vector(-2, 0, 0)
+	
+	SWEP.LaserPosAdjust = Vector(-0.6, -1, 0)
+
+	SWEP.LaserAngAdjust = Angle(-0.25, 180, 0) 
 
 end
 
@@ -232,7 +238,9 @@ SWEP.Attachments = {[1] = {header = "Sight", offset = {800, -450},  atts = {"md_
 
 	[2] = {header = "Stock", offset = {1400, -50}, atts = {"bg_vss_foldable_stock"}},
 
-	[3] = {header = "Front", offset = {800, -50}, atts = {"md_foregrip"}}}
+	[3] = {header = "Front", offset = {800, -50}, atts = {"md_foregrip"}},
+	
+	[4] = {header = "Rail", offset = {-400, 150}, atts = {"md_anpeq15"}}}
 
 
 
