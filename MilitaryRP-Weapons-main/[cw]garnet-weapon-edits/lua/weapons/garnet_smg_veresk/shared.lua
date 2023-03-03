@@ -280,12 +280,13 @@ SWEP.ADSFireAnim = false
 
 
 
-SWEP.ReloadSpeed = 2.0
+SWEP.ReloadSpeed = 2
 
-SWEP.ReloadTime = 2.5
+SWEP.ReloadTime = 4.2
 
-SWEP.ReloadTime_Empty = 2.7
+SWEP.ReloadTime_Empty = 6
 
-SWEP.ReloadHalt = 1.8
+SWEP.ReloadHalt = 4.2
 
-SWEP.ReloadHalt_Empty = 2.7
+SWEP.ReloadHalt_Empty = 6
+
