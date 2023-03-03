@@ -254,7 +254,7 @@ SWEP.FireSoundSuppressed = "K90_FIRESUP"
 SWEP.Recoil = 0.6
 
 
-SWEP.HipSpread = 0.04
+SWEP.HipSpread = 0.06
 
 SWEP.AimSpread = 0.006
 
